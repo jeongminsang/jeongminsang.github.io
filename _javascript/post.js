@@ -1,19 +1,27 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
 import {
-  imgExtra,
   initLocaleDatetime,
   initClipboard,
   smoothScroll,
   initPageviews,
-  toc
+  toc,
+  highlightLines,
+  runCpp,
+  runJavascript,
+  runPython,
+  runRust
 } from './modules/plugins';
 
 basic();
 initSidebar();
 initTopbar();
-imgExtra();
 initLocaleDatetime();
 initClipboard();
 toc();
 smoothScroll(); // must be called after toc is created
 initPageviews();
+highlightLines();
+runCpp();
+runJavascript();
+runPython();
+runRust();

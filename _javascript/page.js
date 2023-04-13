@@ -1,9 +1,21 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
-import { imgExtra, initClipboard, smoothScroll } from './modules/plugins';
+import {
+  initClipboard,
+  smoothScroll,
+  highlightLines,
+  runCpp,
+  runJavascript,
+  runPython,
+  runRust
+} from './modules/plugins';
 
 basic();
 initSidebar();
 initTopbar();
-imgExtra();
 initClipboard();
 smoothScroll();
+highlightLines();
+runCpp();
+runJavascript();
+runPython();
+runRust();

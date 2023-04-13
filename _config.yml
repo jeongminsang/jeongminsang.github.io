@@ -30,6 +30,9 @@ url: "https://jeongminsang.github.io"
 github:
   username: jeongminsang
 
+twitter:
+  username: jeongminsang
+
 # linkedin:
 #   username: 민상-정-a31a99264
 
@@ -40,7 +43,9 @@ social:
   email: jong0364@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://jeongminsang.github.io
     - https://github.com/jeongminsang
+    - https://twitter.com/jeongminsang
 
 google_site_verification: # fill in to your verification string
 
@@ -53,8 +58,6 @@ google_analytics:
   pv:
     proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path: # the local PV cache data, friendly to visitors from GFW region
-
-baidu-analysis: f40851b91841f1abe810a63f8d41c2e2
 
 # Prefer color scheme setting.
 #
@@ -78,9 +81,15 @@ img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/pic.jpg"
+# avatar: /avatar.png
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+panel:
+  post:
+    lastmod: true
+    trending_tags: false
+    external_links: true
+    toc: true
 
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
