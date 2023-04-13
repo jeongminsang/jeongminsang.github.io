@@ -42,7 +42,7 @@ layout: compress
     <div id="mask"></div>
 
     <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
+      <i class="iconfont icon-angle-up"></i>
     </a>
 
     {% if site.pwa.enabled %}
@@ -65,6 +65,10 @@ layout: compress
     {% include search-loader.html %}
 
     {% include js-selector.html %}
+
+    {% if site.backgroud_animation %}
+      {% include animated-background.html %}
+    {% endif %}
 
   </body>
 

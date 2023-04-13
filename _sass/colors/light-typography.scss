@@ -12,8 +12,9 @@
   --text-color: #34343c;
   --text-muted-color: gray;
   --heading-color: black;
-  --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #9a9a9a;
+  --blockquote-border-color: #7a7a7a;
+  --blockquote-text-color: #34343c;
+  --blockquote-background-color: #f1f1f1;
   --link-color: #2a408e;
   --link-underline-color: #dee2e6;
   --button-bg: #ffffff;
@@ -41,6 +42,7 @@
   --sidebar-active-color: #424242;
   --nav-cursor-color: #757575;
   --sidebar-btn-bg: white;
+  --sidebar-link-color: rgba(117, 117, 117, 0.9);
 
   /* Topbar */
   --topbar-text-color: rgb(78, 78, 78);
@@ -73,6 +75,7 @@
   --tag-border: #dee2e6;
   --tag-shadow: var(--btn-border-color);
   --tag-hover: rgb(222, 226, 230);
+  --tb-shade-color: 0, 0, 0;
   --tb-odd-bg: #fbfcfd;
   --tb-border-color: #eaeaea;
   --dash-color: silver;

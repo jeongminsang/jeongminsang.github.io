@@ -8,6 +8,7 @@ export function back2top() {
       $(window).scrollTop() > 50 &&
       $('#sidebar-trigger').css('display') === 'none'
     ) {
+      $("#back-to-top").css("display", "inline-flex");
       $('#back-to-top').fadeIn();
     } else {
       $('#back-to-top').fadeOut();

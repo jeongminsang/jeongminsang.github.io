@@ -47,6 +47,13 @@ html {
   color: var(--highlighter-rouge-color);
   margin-top: 0.5rem;
   margin-bottom: 1.2em; /* Override BS Inline-code style */
+  position: relative;
+}
+
+.language-sh {
+  pre {
+    font-variant-ligatures: none !important;
+  }
 }
 
 .highlight {
@@ -62,6 +69,8 @@ html {
   padding-bottom: 1rem;
 
   pre {
+    font-family: "Fira Code", "Microsoft Yahei", monospace;
+    font-variant-ligatures: normal;
     margin-bottom: 0;
     font-size: $code-font-size;
     line-height: 1.4rem;
@@ -70,6 +79,8 @@ html {
 
   table {
     td pre {
+      font-family: "Fira Code", "Microsoft Yahei", monospace;
+      font-variant-ligatures: normal;
       overflow: visible; /* Fixed iOS safari overflow-x */
       word-break: normal; /* Fixed iOS safari linenos code break */
     }
@@ -92,9 +103,11 @@ code {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  font-family: "Fira Code", "Microsoft Yahei", monospace;
+  font-variant-ligatures: none;
 
   &.highlighter-rouge {
-    font-size: $code-font-size;
+    // font-size: $code-font-size;
     padding: 3px 5px;
     word-break: break-word;
     border-radius: 4px;
@@ -187,6 +200,7 @@ div {
     /* label icon */
     i {
       font-size: 1rem;
+      margin-left: 0.4rem;
       margin-right: 0.4rem;
       color: var(--code-header-icon-color);
 
@@ -244,6 +258,15 @@ div {
       i {
         color: white;
       }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.button-run-code {
+      position: absolute;
+      right: 2.25rem;
     }
   }
 }

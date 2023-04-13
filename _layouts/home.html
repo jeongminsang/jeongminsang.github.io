@@ -57,12 +57,12 @@ layout: page
           <div class="post-meta text-muted d-flex">
             <div class="mr-auto">
               <!-- posted date -->
-              <i class="far fa-calendar fa-fw"></i>
+              <i class="iconfont icon-Monthdatecalendar"></i>
               {% include datetime.html date=post.date %}
 
               <!-- categories -->
               {% if post.categories.size > 0 %}
-                <i class="far fa-folder-open fa-fw"></i>
+                <i class="iconfont icon-FolderOpen-1"></i>
                 <span>
                   {% for category in post.categories %}
                     {{ category }}
@@ -74,7 +74,7 @@ layout: page
 
             {% if post.pin %}
               <div class="pin">
-                <i class="fas fa-thumbtack fa-fw"></i>
+                <i class="iconfont icon-thumb-tack"></i>
                 <span>{{ site.data.locales[site.lang].post.pin_prompt }}</span>
               </div>
             {% endif %}

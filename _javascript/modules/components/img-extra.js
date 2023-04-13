@@ -3,7 +3,7 @@
  */
 
 export function imgExtra() {
-  if ($('#core-wrapper img[data-src]') <= 0) {
+  if ($('div.row img[data-src]') <= 0) {
     return;
   }
 
