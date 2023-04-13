@@ -122,36 +122,32 @@ h1 + .post-meta {
         }
       }
 
-      .iconfont {
-        &.icon-twitter {
+      .fab {
+        &.fa-twitter {
           @include btn-sharing-color(rgba(29, 161, 242, 1));
         }
-  
-        &.icon-facebook {
+
+        &.fa-facebook-square {
           @include btn-sharing-color(rgb(66, 95, 156));
         }
-  
-        &.icon-telegram {
+
+        &.fa-telegram {
           @include btn-sharing-color(rgb(39, 159, 217));
         }
-  
-        &.icon-linkedin {
+
+        &.fa-linkedin {
           @include btn-sharing-color(rgb(0, 119, 181));
         }
-  
-        &.icon-weibo {
+
+        &.fa-weibo {
           @include btn-sharing-color(rgb(229, 20, 43));
-        }
-  
-        &.icon-13 {
-          @include btn-sharing-color(rgb(1, 187, 10));
-        }
-  
-        &.icon-qzone {
-          @include btn-sharing-color(rgb(255, 218, 5));
         }
       }
     } /* .share-icons */
+
+    .fas.fa-link {
+      @include btn-sharing-color(rgb(171, 171, 171));
+    }
   } /* .share-wrapper */
 }
 
@@ -251,8 +247,7 @@ h1 + .post-meta {
   border-left: 1px solid rgba(158, 158, 158, 0.17);
   position: -webkit-sticky;
   position: sticky;
-  top: 3rem;
-  margin-top: 3rem;
+  top: 4rem;
   transition: top 0.2s ease-in-out;
   -webkit-animation: fade-up 0.8s;
   animation: fade-up 0.8s;

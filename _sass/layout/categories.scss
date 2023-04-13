@@ -15,6 +15,8 @@
 
   i {
     @extend %category-icon-color;
+
+    font-size: 86%; /* fontawesome icons */
   }
 
   .list-group-item {
@@ -35,7 +37,6 @@
   border-radius: 50%;
   text-align: center;
   color: #6c757d !important;
-  display: inline-flex;
 
   i {
     position: relative;
@@ -51,13 +52,6 @@
       color: var(--categories-icon-hover-color);
     }
   }
-
-  i {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    transition: transform 300ms ease;
-  }
 }
 
 /* only works on desktop */
@@ -68,6 +62,6 @@
 }
 
 .rotate {
-  display: inline-block;
   -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
