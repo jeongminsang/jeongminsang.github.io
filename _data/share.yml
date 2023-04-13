@@ -1,4 +1,5 @@
-#  帖子底部的分享选项。
+#  Sharing options at the bottom of the post.
+#  Icons from <https://fontawesome.com/>
 
 platforms:
   - type: Twitter
@@ -16,15 +17,3 @@ platforms:
   - type: Telegram
     icon: "iconfont icon-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
-
-  - type: QQ
-    icon: "iconfont icon-QQ"
-    link: "http://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
-
-  - type: QQ 空间
-    icon: "iconfont icon-qzone"
-    link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=URL&title=TITLE"
-
-  - type: 微博
-    icon: "iconfont icon-weibo"
-    link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
