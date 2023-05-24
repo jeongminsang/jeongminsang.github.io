@@ -1,7 +1,7 @@
 ---
 title: NextJS에서 MSW를 사용해보자
-date: 2023-04-12 18:32:00 -0500
 author: jeongminsang
+date: 2023-04-12 18:32:00 -0500
 categories: [NextJS, TypeScript]
 tags: [NextJS, TypeScript, MSW]
 ---
