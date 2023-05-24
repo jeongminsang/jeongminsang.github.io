@@ -6,7 +6,6 @@ categories: [Blogging, Tutorial]
 tags: [google analytics, pageviews]
 ---
 
-> post
 # MSW란?
 Mock Service Worker의 약자로 Service Worker API를 사용하여 실제 요청을 가로채는 API mocking 라이브러리
 
