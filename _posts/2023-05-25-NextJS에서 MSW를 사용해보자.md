@@ -1,9 +1,9 @@
 ---
-title: MSW란?
-author: jeongminsang
+title: NextJS에서 MSW를 사용해보자
 date: 2023-04-12 18:32:00 -0500
-categories: [Blogging, Tutorial]
-tags: [google analytics, pageviews]
+author: jeongminsang
+categories: [NextJS, TypeScript]
+tags: [NextJS, TypeScript, MSW]
 ---
 
 # MSW란?
